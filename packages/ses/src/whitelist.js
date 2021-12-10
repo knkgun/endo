@@ -286,6 +286,7 @@ function NativeErrorPrototype(constructor) {
     constructor,
     message: 'string',
     name: 'string',
+    cause: 'undefined',
     // Redundantly present only on v8. Safe to remove.
     toString: false,
   };
@@ -546,6 +547,7 @@ export const whitelist = {
     constructor: '%SharedError%',
     message: 'string',
     name: 'string',
+    cause: 'undefined',
     toString: fn,
     // proposed de-facto, assumed TODO
     // Seen on FF Nightly 88.0a1

@@ -1,5 +1,9 @@
 User-visible changes in SES:
 
+# Next release
+
+- Updates the permits to include the `cause` accessor on all prototypes.
+
 # 0.15.2 (2021-12-08)
 
 - The `Removing...` messages that Lockdown emits when encountering unrecognized
